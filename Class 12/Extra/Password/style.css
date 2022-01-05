@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* p {
+  padding: 0;
+  margin: 0;
+}
+
+* .red {
+  color: red;
+  margin: 5px 0;
+}
+
+* span {
+  display: block;
+}
+
+.password-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.password-section .login-body {
+  background-color: rgba(235, 144, 144, 0.43);
+  -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.418);
+          box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.418);
+  padding: 40px 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.password-section .login-body #loginForm #userName {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgba(235, 144, 144, 0.637);
+}
+
+.password-section .login-body #loginForm #firstPassword {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgba(235, 144, 144, 0.637);
+}
+
+.password-section .login-body #loginForm #secendPassword {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid rgba(235, 144, 144, 0.637);
+}
+
+.password-section .login-body #loginForm label {
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.password-section .login-body #loginForm button, .password-section .login-body #loginForm a {
+  width: 100%;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 10px 8px;
+  border-radius: 8px;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.password-section .login-body #loginForm .password1 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.password-section .login-body #loginForm .password1 #firstPasswordeye {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  height: 100%;
+  background-color: #74b374;
+  width: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f6cfcf;
+}
+
+.password-section .login-body #loginForm .password2 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.password-section .login-body #loginForm .password2 #secendPasswordEye {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  height: 100%;
+  background-color: #74b374;
+  width: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #f6cfcf;
+}
+
+.password-section .login-body #loader {
+  width: 100%;
+  margin-top: 20px;
+  display: none;
+}
+
+.password-section .login-body #loader.visibole {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
