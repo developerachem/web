@@ -1,0 +1,21 @@
+*{
+    list-style: none;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .box-inner{
+        height: 185px;
+        width: 185px;
+        background-color: rgb(88, 72, 72);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

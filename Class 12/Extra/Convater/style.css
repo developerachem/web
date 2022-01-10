@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+* ul {
+  margin: 0;
+  padding: 0;
+}
+
+* li {
+  margin: 0;
+  padding: 0;
+}
+
+* a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+* span {
+  display: block;
+}
+
+.curincy-convater {
+  margin: 100px 0;
+}
+
+.curincy-convater .curincy-convater-body {
+  width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: #45a176;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.342);
+          box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.342);
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .amount {
+  width: 40%;
+  margin-right: 10px;
+  position: relative;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .amount #amountSyntex {
+  background-color: inherit;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .amount #amountFeild {
+  width: 100%;
+  padding: 10px 25px;
+  border-radius: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .amount #amountFeild:focus-visible {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .amount #amoundFeildMassage {
+  color: red;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .first-code {
+  width: 20%;
+  margin: 0 10px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .first-code #firstCheckbox {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .first-code #firstCheckboxMassage {
+  color: red;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input #rooter {
+  background-color: #fff;
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .secend-code {
+  width: 20%;
+  margin-left: 10px;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .secend-code #secendCheckbox {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.curincy-convater .curincy-convater-body form .curincy-input .secend-code #secendCheckboxMassage {
+  color: red;
+}
+
+.curincy-convater .curincy-convater-body form .output {
+  position: relative;
+  margin-top: 20px;
+}
+
+.curincy-convater .curincy-convater-body form .output button {
+  background-color: #608860;
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  position: absolute;
+  right: 5px;
+  top: 10%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.curincy-convater .curincy-convater-body form .output button.hide {
+  display: none;
+}
+
+.curincy-convater .curincy-convater-body form .output span {
+  background-color: rgba(255, 255, 255, 0.575);
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=style.css.map */

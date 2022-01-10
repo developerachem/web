@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    .container {
+        max-width: 1200px;
+        padding: 0 20px;
+        margin: auto;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    p {
+        margin-bottom: 0 !important;
+    }
+}
+
+.massanger-section {
+    margin: 100px 0;
+
+    .massanger-item {
+        display: flex;
+        justify-content: space-between;
+
+        .first-massanger {
+            border-radius: 10px;
+            overflow: hidden;
+            width: 48%;
+
+            .massanger-head {
+                background-color: #ddd;
+                padding: 10px 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .profile {
+
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 70px;
+                        border-radius: 50%;
+                    }
+
+                    .name {
+                        margin-left: 10px;
+
+                        h5 {
+                            font-weight: 700;
+                            font-size: 20px;
+                        }
+
+                        p {
+                            color: rgb(65, 110, 77);
+                            font-weight: 400;
+                            margin-top: 10px;
+
+                        }
+                    }
+                }
+
+                .call {
+                    ul {
+                        display: flex;
+
+                        li {
+                            margin: 0 8px;
+
+                            a {
+                                i {}
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .massanger-body {
+                padding: 20px;
+                background-color: rgba(216, 223, 204, 0.705);
+                height: 550px;
+                overflow: auto;
+
+                .clint-massage {
+                    overflow: auto;
+
+                    // width: 80%;
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+
+                        li {
+                            p {
+                                display: inline-block;
+                                background-color: #fff;
+                                padding: 10px 20px;
+                                border-radius:50px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .my-massage {
+                    text-align: right;
+                    margin-left: auto;
+                    width: 80%;
+
+                    ul {
+                        display: flex;
+                        flex-direction: column;
+
+                        li {
+                            p {
+                                display: inline-block;
+                                background-color: #fff;
+                                padding: 10px 20px;
+                                border-radius: 50px 50px 0 50px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .massanger-footer {
+                padding: 10px 20px;
+                background-color: #dddddd;
+                display: flex;
+                align-items: center;
+
+                .footer-icon {
+                    width: 20%;
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            margin: 0 5px;
+
+                            a {
+                                i {}
+                            }
+                        }
+                    }
+                }
+
+                .massage-box {
+                    width: 80%;
+
+                    form {
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+
+                        .input {
+                            width: 88%;
+                            padding: 10px 20px;
+                            box-sizing: border-box;
+                            border-radius: 50px;
+                            border: none;
+                        }
+
+                        button {
+                            width: 10%;
+                            appearance: none;
+                            border: none;
+                            background-color: transparent;
+                            color: rgb(233, 55, 55);
+                            font-size: 20px;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#massage1 {
+	display: flex;
+	align-items: center;
+	justify-content: end;
+    p{
+        margin: 0 5px;
+    }
+}
+
+#imageSize {
+    display: flex;
+    align-items: center; 
+}
+#image{
+    width: 43px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

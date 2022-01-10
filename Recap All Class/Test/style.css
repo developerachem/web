@@ -1,0 +1,20 @@
+body{
+    padding: 100px;
+}
+
+table{
+   
+}
+table tr td{
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+}
+table thead tr{
+    background-color: grey;
+}
+table tbody tr:nth-child(even){
+    background-color: red;
+}
+table tbody tr:nth-child(odd){
+    background-color: rgb(98, 0, 255);
+}

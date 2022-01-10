@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* .container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: auto;
+}
+
+* ul {
+  margin: 0;
+  padding: 0;
+}
+
+* li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+* p {
+  margin-bottom: 0 !important;
+}
+
+.massanger-section {
+  margin: 100px 0;
+}
+
+.massanger-section .massanger-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.massanger-section .massanger-item .first-massanger {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 48%;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head {
+  background-color: #ddd;
+  padding: 10px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .profile img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .profile .name {
+  margin-left: 10px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .profile .name h5 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .profile .name p {
+  color: #416e4d;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .call ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-head .call ul li {
+  margin: 0 8px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body {
+  padding: 20px;
+  background-color: rgba(216, 223, 204, 0.705);
+  height: 550px;
+  overflow: auto;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body .clint-massage {
+  overflow: auto;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body .clint-massage ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body .clint-massage ul li p {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body .my-massage {
+  text-align: right;
+  margin-left: auto;
+  width: 80%;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body .my-massage ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-body .my-massage ul li p {
+  display: inline-block;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px 50px 0 50px;
+  margin-bottom: 10px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer {
+  padding: 10px 20px;
+  background-color: #dddddd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .footer-icon {
+  width: 20%;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .footer-icon ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .footer-icon ul li {
+  margin: 0 5px;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .massage-box {
+  width: 80%;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .massage-box form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .massage-box form .input {
+  width: 88%;
+  padding: 10px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50px;
+  border: none;
+}
+
+.massanger-section .massanger-item .first-massanger .massanger-footer .massage-box form button {
+  width: 10%;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background-color: transparent;
+  color: #e93737;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#massage1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#massage1 p {
+  margin: 0 5px;
+}
+
+#imageSize {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#image {
+  width: 43px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=style.css.map */

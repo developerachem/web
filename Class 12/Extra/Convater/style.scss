@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+    }
+    span{
+        display: block;
+    }
+}
+.curincy-convater{
+    margin: 100px 0;
+    .curincy-convater-body{
+        width: 600px;
+        margin: auto;
+        padding: 30px;
+        background-color: rgb(69, 161, 118);
+        border-radius: 10px;
+
+        box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.342);
+        form{
+            .curincy-input{
+                display: flex;
+                justify-content: space-between;
+                .amount{
+                    width: 40%;
+                    margin-right: 10px;
+                    position: relative;
+                    #amountSyntex{
+                        background-color: inherit;
+                        position: absolute;
+                        top: 8px;
+                        left: 5px;
+                        font-size: 18px;
+                        font-weight: bold;
+                        pointer-events: none;
+                    }
+                    #amountFeild{
+                        width: 100%;
+                        padding: 10px 25px;
+                        border-radius: 10px;
+                        box-sizing: border-box;
+                        border: 1px solid black;
+                    }
+                    #amountFeild:focus-visible{
+                        box-shadow: none !important;
+                        
+                    }
+                    #amoundFeildMassage{
+                        color: red;
+                    }
+                }
+                .first-code{
+                    width: 20%;
+                    margin: 0 10px;
+                    box-sizing: content-box;
+                    #firstCheckbox{
+                        width: 100%;
+                        padding: 10px 0;
+                        border-radius: 10px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    #firstCheckboxMassage{
+                        color: red;
+                    }
+                }
+                #rooter{
+                    background-color: #fff;
+                    height: 40px;
+                    width: 60px;
+                    border-radius: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+
+                }
+                .secend-code{
+                    width: 20%;
+                    margin-left: 10px;
+                    #secendCheckbox{
+                        width: 100%;
+                        padding: 10px 0;
+                        border-radius: 10px;
+                        border: none;
+                        cursor: pointer;
+                    }
+                    #secendCheckboxMassage{
+                        color: red;
+                    }
+                }
+            }
+            .output{
+                position: relative;
+                margin-top: 20px;
+                button{
+                    background-color: rgb(96, 136, 96);
+                    border: none;
+                    color: white;
+                    padding: 15px 20px;
+                    position: absolute;
+                    right: 5px;
+                    top: 10%;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    
+                }
+                button.hide{
+                    display: none;
+                }
+                span{
+                    background-color: rgba(255, 255, 255, 0.575);
+                    padding: 20px 10px;
+                    border-radius: 10px; 
+                }
+            }
+        }
+    }
+}
